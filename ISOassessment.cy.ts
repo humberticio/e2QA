@@ -119,7 +119,7 @@ function randomNumber() {
 
 function randomUrl() {
   const characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-  const length = 10; // You can adjust the length of the URL as needed
+  const length = 10; 
   let url = 'http://example.com/';
 
   for (let i = 0; i < length; i++) {
